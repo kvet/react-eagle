@@ -8,6 +8,11 @@ export default {
     { file: pkg.main, format: 'cjs', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
   ],
+  external: [
+    'react',
+    'react-dom',
+    'prop-types'
+  ],
   plugins: [
     babel(),
     license({
