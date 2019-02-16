@@ -1,0 +1,40 @@
+{
+  "name": "@react-eagle/virtual-list",
+  "version": "0.0.0",
+  "description": "React Eagle Virtual List Component",
+  "author": "Yury Orlov",
+  "bugs": {
+    "url": "https://github.com/kvet/react-eagle/issues"
+  },
+  "homepage": "https://kvet.github.io/react-eagle/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvet/react-eagle.git"
+  },
+  "keywords": [
+    "react",
+    "eagle",
+    "virtual",
+    "list",
+    "component"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/virtual-list.cjs.js",
+  "module": "dist/virtual-list.es.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build:watch": "rollup -c rollup.config.js -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.3.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
